@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>FitLife Gym</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Gym Workout Background -->
+    <section id="home" class="hero-section">
+        <div class="hero-text">
+            <h2>Transform Your Life at FitLife Gym</h2>
+            <p>Achieve your fitness goals with state-of-the-art equipment and professional trainers.</p>
+            <a href="#contact" class="btn">Join Now</a>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <!-- About Section with Gym Workout Image -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>FitLife Gym is designed to bring you the best fitness experience with modern equipment, professional trainers, and a wide range of programs tailored for every fitness level.</p>
+            <!-- Add gym workout image -->
+            <img src="images/gym-workout.jpg" alt="Gym Workout" class="about-image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <img src="images/personal-training.jpg" alt="Personal Training">
+                    <h3>Personal Training</h3>
+                    <p>Work one-on-one with expert trainers to achieve your fitness goals faster and safer.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/group-classes.jpg" alt="Group Classes">
+                    <h3>Group Classes</h3>
+                    <p>Our dynamic group classes are designed to motivate and energize you, no matter your fitness level.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/nutrition.jpg" alt="Nutrition Counseling">
+                    <h3>Nutrition Counseling</h3>
+                    <p>Get customized nutrition advice to complement your fitness routine for optimal results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
